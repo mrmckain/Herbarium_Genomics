@@ -22,13 +22,13 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Amanita muscaria Koide v1.0			Glarea lozoyensis ATCC 20868					Pisolithus microcarpus 441 v1.0
 	Amniculicola lignicola CBS 123094 v1.0		Glomerella acutata (Colletotrichum fiorinae MH 18) v1.0		Plectosphaerella cucumerina DS2psM2a2 v1.0
 	Amorphotheca resinae v1.0			Gonapodya prolifera v1.0					Plicaturopsis crispa v1.0
-	Ampelomyces quisqualis HMLAC05119 v1.0			Gongronella butleri v1.0				Pluteus cervinus NL-1719 v1.0
-	Anaeromyces robustus v1.0	Gremmeniella abietina DAOM 170408 v1.0	Pneumocystis jirovecii
-	Anomoporia bombycina ATCC 64506 v1.0	Grosmannia clavigera kw1407	Podospora anserina S mat+
-	Anthostoma avocetta NRRL 3190 v1.0	Guyanagaster necrorhiza MCA 3950 v1.0	Polyporus arcularius v1.0
-	Apiospora montagnei NRRL 25634 v1.0	Gymnopus androsaceus JB14 v1.0	Porodaedalea chrysoloma FP-135951 v1.0
-	Aplosporella prunicola CBS 121.167 v1.0	Gyromitra esculenta CBS101906 v1.0	Postia placenta MAD-698-R-SB12 v1.0
-	Aporpium caryae L-13461	Hebeloma cylindrosporum h7 v2.0	Protomyces inouyei
+	Ampelomyces quisqualis HMLAC05119 v1.0		Gongronella butleri v1.0					Pluteus cervinus NL-1719 v1.0
+	Anaeromyces robustus v1.0			Gremmeniella abietina DAOM 170408 v1.0			Pneumocystis jirovecii
+	Anomoporia bombycina ATCC 64506 v1.0		Grosmannia clavigera kw1407			Podospora anserina S mat+
+	Anthostoma avocetta NRRL 3190 v1.0		Guyanagaster necrorhiza MCA 3950 v1.0			Polyporus arcularius v1.0
+	Apiospora montagnei NRRL 25634 v1.0		Gymnopus androsaceus JB14 v1.0				Porodaedalea chrysoloma FP-135951 v1.0
+	Aplosporella prunicola CBS 121.167 v1.0		Gyromitra esculenta CBS101906 v1.0			Postia placenta MAD-698-R-SB12 v1.0
+	Aporpium caryae L-13461				Hebeloma cylindrosporum h7 v2.0					Protomyces inouyei
 	Armillaria gallica 21-2 v1.0	Heliocybe sulcata OMC1185 v1.0	Pseudozyma antarctica T-34
 	Arthroderma benhamiae CBS 112371	Hesseltinella vesiculosa NRRL3301 v2.0	Pterula gracilis CBS309.79 v1.0
 	Ascobolus immersus RN42 v1.0	Heterogastridium pycnidioideum ATCC MYA-4631 v1.0	Puccinia graminis f. sp. tritici v2.0
