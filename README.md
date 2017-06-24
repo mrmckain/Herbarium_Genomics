@@ -11,9 +11,9 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Absidia padenii NRRL 2977 v1.0			Fellomyces penicillatus Phaff54-35 v1.0		Periconia macrospinosa DSE2036 v1.0
 	Absidia repens NRRL 1336 v1.0			Fennellomyces sp. T-0311 v1.0			Phaeoacremonium aleophilum UCRPA7
 	Acaromyces ingoldii MCA 4198 v1.0		Fibulobasidium inconspicuum Phaff89-39 v1.0	Phanerochaete chrysosporium RP-78 v2.2
-	Acephala macrosclerotiorum EW76-UTF0540 v1.0	Fistulina hepatica v1.0		Phialocephala scopiformis 5WS22E1 v1.0
-	Acidothrix acidophila CBS 136259 v1.0	Fomitiporia mediterranea v1.0	Phlebia brevispora HHB-7030 SS6 v1.0
-	Acremonium alcalophilum v2.0	Fonsecaea multimorphosa CBS 102226	Pholiota alnicola AH 47727 v1.0
+	Acephala macrosclerotiorum EW76-UTF0540 v1.0	Fistulina hepatica v1.0			Phialocephala scopiformis 5WS22E1 v1.0
+	Acidothrix acidophila CBS 136259 v1.0		Fomitiporia mediterranea v1.0		Phlebia brevispora HHB-7030 SS6 v1.0
+	Acremonium alcalophilum v2.0			Fonsecaea multimorphosa CBS 102226		Pholiota alnicola AH 47727 v1.0
 	Agaricostilbum hyphaenes  ATCC MYA-4628 v1.0	Fusarium fujikuroi IMI 58289	Phyllosticta capitalensis CBS 128856 v1.0
 	Agrocybe pediades AH 40210 v1.0	Gaeumannomyces graminis var. tritici R3-111a-1	Pichia membranifaciens v2.0
 	Aliquandostipite khaoyaiensis CBS 118232 v1.0	Galerina marginata v1.0	Piedraia hortae v1.1
