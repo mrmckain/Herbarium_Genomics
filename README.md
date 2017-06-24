@@ -7,22 +7,22 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 
 <b>Nuclear Genome Species:</b><br>
 	
-	Aaosphaeria arxii CBS 175.79 v1.0		Exophiala alcalophila J33 v1.0				Paxillus ammoniavirescens Pou09.2 v1.0
-	Absidia padenii NRRL 2977 v1.0			Fellomyces penicillatus Phaff54-35 v1.0			Periconia macrospinosa DSE2036 v1.0
-	Absidia repens NRRL 1336 v1.0			Fennellomyces sp. T-0311 v1.0				Phaeoacremonium aleophilum UCRPA7
-	Acaromyces ingoldii MCA 4198 v1.0		Fibulobasidium inconspicuum Phaff89-39 v1.0		Phanerochaete chrysosporium RP-78 v2.2
-	Acephala macrosclerotiorum EW76-UTF0540 v1.0	Fistulina hepatica v1.0					Phialocephala scopiformis 5WS22E1 v1.0
-	Acidothrix acidophila CBS 136259 v1.0		Fomitiporia mediterranea v1.0				Phlebia brevispora HHB-7030 SS6 v1.0
-	Acremonium alcalophilum v2.0			Fonsecaea multimorphosa CBS 102226			Pholiota alnicola AH 47727 v1.0
-	Agaricostilbum hyphaenes  ATCC MYA-4628 v1.0	Fusarium fujikuroi IMI 58289				Phyllosticta capitalensis CBS 128856 v1.0
-	Agrocybe pediades AH 40210 v1.0			Gaeumannomyces graminis var. tritici R3-111a-1		Pichia membranifaciens v2.0
-	Aliquandostipite khaoyaiensis CBS 118232 v1.0	Galerina marginata v1.0					Piedraia hortae v1.1
-	Allomyces macrogynus ATCC 38327			Gautieria morchelliformis GMNE.BST v1.0			Pilaira anomala RSA1997 v1.0
+	Aaosphaeria arxii CBS 175.79 v1.0		Exophiala alcalophila J33 v1.0					Paxillus ammoniavirescens Pou09.2 v1.0
+	Absidia padenii NRRL 2977 v1.0			Fellomyces penicillatus Phaff54-35 v1.0				Periconia macrospinosa DSE2036 v1.0
+	Absidia repens NRRL 1336 v1.0			Fennellomyces sp. T-0311 v1.0					Phaeoacremonium aleophilum UCRPA7
+	Acaromyces ingoldii MCA 4198 v1.0		Fibulobasidium inconspicuum Phaff89-39 v1.0			Phanerochaete chrysosporium RP-78 v2.2
+	Acephala macrosclerotiorum EW76-UTF0540 v1.0	Fistulina hepatica v1.0						Phialocephala scopiformis 5WS22E1 v1.0
+	Acidothrix acidophila CBS 136259 v1.0		Fomitiporia mediterranea v1.0					Phlebia brevispora HHB-7030 SS6 v1.0
+	Acremonium alcalophilum v2.0			Fonsecaea multimorphosa CBS 102226				Pholiota alnicola AH 47727 v1.0
+	Agaricostilbum hyphaenes  ATCC MYA-4628 v1.0	Fusarium fujikuroi IMI 58289					Phyllosticta capitalensis CBS 128856 v1.0
+	Agrocybe pediades AH 40210 v1.0			Gaeumannomyces graminis var. tritici R3-111a-1			Pichia membranifaciens v2.0
+	Aliquandostipite khaoyaiensis CBS 118232 v1.0	Galerina marginata v1.0						Piedraia hortae v1.1
+	Allomyces macrogynus ATCC 38327			Gautieria morchelliformis GMNE.BST v1.0				Pilaira anomala RSA1997 v1.0
 	Alternaria alternata SRC1lrK2f v1.0		Gilbertella persicaria var. persicaria CBS 190.32-T v1.0	Piromyces sp. E2 v1.0
-	Amanita muscaria Koide v1.0	Glarea lozoyensis ATCC 20868	Pisolithus microcarpus 441 v1.0
-	Amniculicola lignicola CBS 123094 v1.0	Glomerella acutata (Colletotrichum fiorinae MH 18) v1.0	Plectosphaerella cucumerina DS2psM2a2 v1.0
-	Amorphotheca resinae v1.0	Gonapodya prolifera v1.0	Plicaturopsis crispa v1.0
-	Ampelomyces quisqualis HMLAC05119 v1.0	Gongronella butleri v1.0	Pluteus cervinus NL-1719 v1.0
+	Amanita muscaria Koide v1.0			Glarea lozoyensis ATCC 20868					Pisolithus microcarpus 441 v1.0
+	Amniculicola lignicola CBS 123094 v1.0		Glomerella acutata (Colletotrichum fiorinae MH 18) v1.0		Plectosphaerella cucumerina DS2psM2a2 v1.0
+	Amorphotheca resinae v1.0			Gonapodya prolifera v1.0					Plicaturopsis crispa v1.0
+	Ampelomyces quisqualis HMLAC05119 v1.0			Gongronella butleri v1.0				Pluteus cervinus NL-1719 v1.0
 	Anaeromyces robustus v1.0	Gremmeniella abietina DAOM 170408 v1.0	Pneumocystis jirovecii
 	Anomoporia bombycina ATCC 64506 v1.0	Grosmannia clavigera kw1407	Podospora anserina S mat+
 	Anthostoma avocetta NRRL 3190 v1.0	Guyanagaster necrorhiza MCA 3950 v1.0	Polyporus arcularius v1.0
