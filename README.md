@@ -107,10 +107,10 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Enterocytozoon bieneusi H348							Ophiobolus disseminans CBS 113818 v1.0	Xylona heveae TC161 v1.0
 	Eremomyces bilateralis CBS 781.70 v1.0					Orpinomyces sp.	Yarrowia lipolytica (strain CLIB122)
 	Eremothecium gossypii ATCC 10895						Oudemansiella mucida CBS 558.79 v1.0	Zasmidium cellare ATCC 36951 v1.0
-	Erythrobasidium hasegawianum ATCC 9536 v1.0				Pachysolen tannophilus NRRL Y-2460 v1.2	Zopfia rhizophila v1.0
-	Eurotium rubrum v1.0									Panaeolus papilionaceus CIRM-BRFM 715 v1.0	Zychaea mexicana RSA 1403 v1.0
-	Eutypa lata UCREL1										Paracoccidioides brasiliensis Pb03	Zygoascus hellenicus Y-7136 v1.0
-	Exidia glandulosa v1.0									Patellaria atrata v1.0	Zymoseptoria ardabiliae STIR04_1.1.1
+	Erythrobasidium hasegawianum ATCC 9536 v1.0			Pachysolen tannophilus NRRL Y-2460 v1.2	Zopfia rhizophila v1.0
+	Eurotium rubrum v1.0							Panaeolus papilionaceus CIRM-BRFM 715 v1.0	Zychaea mexicana RSA 1403 v1.0
+	Eutypa lata UCREL1							Paracoccidioides brasiliensis Pb03	Zygoascus hellenicus Y-7136 v1.0
+	Exidia glandulosa v1.0							Patellaria atrata v1.0	Zymoseptoria ardabiliae STIR04_1.1.1
 
 <br>
 <b>Mitchondrial Genome Species:</b><br>
