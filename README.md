@@ -23,25 +23,25 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Amniculicola lignicola CBS 123094 v1.0		Glomerella acutata (Colletotrichum fiorinae MH 18) v1.0		Plectosphaerella cucumerina DS2psM2a2 v1.0
 	Amorphotheca resinae v1.0			Gonapodya prolifera v1.0					Plicaturopsis crispa v1.0
 	Ampelomyces quisqualis HMLAC05119 v1.0		Gongronella butleri v1.0					Pluteus cervinus NL-1719 v1.0
-	Anaeromyces robustus v1.0			Gremmeniella abietina DAOM 170408 v1.0			Pneumocystis jirovecii
-	Anomoporia bombycina ATCC 64506 v1.0		Grosmannia clavigera kw1407			Podospora anserina S mat+
-	Anthostoma avocetta NRRL 3190 v1.0		Guyanagaster necrorhiza MCA 3950 v1.0			Polyporus arcularius v1.0
-	Apiospora montagnei NRRL 25634 v1.0		Gymnopus androsaceus JB14 v1.0				Porodaedalea chrysoloma FP-135951 v1.0
-	Aplosporella prunicola CBS 121.167 v1.0		Gyromitra esculenta CBS101906 v1.0			Postia placenta MAD-698-R-SB12 v1.0
+	Anaeromyces robustus v1.0			Gremmeniella abietina DAOM 170408 v1.0				Pneumocystis jirovecii
+	Anomoporia bombycina ATCC 64506 v1.0		Grosmannia clavigera kw1407					Podospora anserina S mat+
+	Anthostoma avocetta NRRL 3190 v1.0		Guyanagaster necrorhiza MCA 3950 v1.0				Polyporus arcularius v1.0
+	Apiospora montagnei NRRL 25634 v1.0		Gymnopus androsaceus JB14 v1.0					Porodaedalea chrysoloma FP-135951 v1.0
+	Aplosporella prunicola CBS 121.167 v1.0		Gyromitra esculenta CBS101906 v1.0				Postia placenta MAD-698-R-SB12 v1.0
 	Aporpium caryae L-13461				Hebeloma cylindrosporum h7 v2.0					Protomyces inouyei
-	Armillaria gallica 21-2 v1.0	Heliocybe sulcata OMC1185 v1.0	Pseudozyma antarctica T-34
-	Arthroderma benhamiae CBS 112371	Hesseltinella vesiculosa NRRL3301 v2.0	Pterula gracilis CBS309.79 v1.0
-	Ascobolus immersus RN42 v1.0	Heterogastridium pycnidioideum ATCC MYA-4631 v1.0	Puccinia graminis f. sp. tritici v2.0
-	Aspergillus aculeatinus CBS 121060 v1.0	Histoplasma capsulatum NAm1	Punctularia strigosozonata v1.0
-	Atractiellales sp. v2.0	Hortaea acidophila CBS 113389 v1.0	Purpureocillium sp. UdeA0106 v1.0
-	Aulographum hederae v2.0	Hyalopycnis blepharistoma ATCC 48560 v1.0	Pycnoporus cinnabarinus BRFM 137
-	Auriculariopsis ampla NL-1724 v1.0	Hydnopolyporus fimbriatus CBS384.51 v1.0	Pyronema confluens CBS100304
-	Babjeviella inositovora NRRL Y-12698 v1.0	Hymenopellis radicata IJFM A160 v1.0	Radiomyces spectabilis NRRL 2753 v1.0
-	Backusella circina FSU 941 v1.0	Hyphopichia burtonii NRRL Y-1933 v1.0	Ramaria rubella (R. acris) UT-36052-T v1.0
-	Basidiobolus meristosporus CBS 931.73 v1.0	Hysterium pulicare	Rhizopus microsporus var. chinensis CCTCC M201021
+	Armillaria gallica 21-2 v1.0			Heliocybe sulcata OMC1185 v1.0					Pseudozyma antarctica T-34
+	Arthroderma benhamiae CBS 112371		Hesseltinella vesiculosa NRRL3301 v2.0			Pterula gracilis CBS309.79 v1.0
+	Ascobolus immersus RN42 v1.0			Heterogastridium pycnidioideum ATCC MYA-4631 v1.0		Puccinia graminis f. sp. tritici v2.0
+	Aspergillus aculeatinus CBS 121060 v1.0		Histoplasma capsulatum NAm1					Punctularia strigosozonata v1.0
+	Atractiellales sp. v2.0					Hortaea acidophila CBS 113389 v1.0				Purpureocillium sp. UdeA0106 v1.0
+	Aulographum hederae v2.0				Hyalopycnis blepharistoma ATCC 48560 v1.0			Pycnoporus cinnabarinus BRFM 137
+	Auriculariopsis ampla NL-1724 v1.0		Hydnopolyporus fimbriatus CBS384.51 v1.0		Pyronema confluens CBS100304
+	Babjeviella inositovora NRRL Y-12698 v1.0	Hymenopellis radicata IJFM A160 v1.0		Radiomyces spectabilis NRRL 2753 v1.0
+	Backusella circina FSU 941 v1.0		Hyphopichia burtonii NRRL Y-1933 v1.0				Ramaria rubella (R. acris) UT-36052-T v1.0
+	Basidiobolus meristosporus CBS 931.73 v1.0	Hysterium pulicare				Rhizopus microsporus var. chinensis CCTCC M201021
 	Baudoinia compniacensis UAMH 10762 (4089826) v1.0	Ilyonectria robusta PMI_751 v1.0	Rhodotorula graminis strain WP1 v1.1
-	Beauveria bassiana ARSEF 2860	Irpex lacteus CCBAS Fr. 238 617/93 v1.0	Rhytidhysteron rufulum
-	Bimuria novae-zelandiae CBS 107.79 v1.0	Jaapia argillacea v1.0	Rickenella fibula HBK330-10 v1.0
+	Beauveria bassiana ARSEF 2860			Irpex lacteus CCBAS Fr. 238 617/93 v1.0		Rhytidhysteron rufulum
+	Bimuria novae-zelandiae CBS 107.79 v1.0	Jaapia argillacea v1.0		Rickenella fibula HBK330-10 v1.0
 	Biscogniauxia nummularia v1.0	Jaminaea sp. MCA 5214 v1.0	Rigidoporus microporus ED310 v1.0
 	Bjerkandera adusta v1.0	Kalaharituber pfeilii F3 v1.0	Rozella allomycis CSF55
 	Blastobotrys (Arxula) adeninivorans	Karstenula rhodostoma CBS 690.94 v1.0	Russula brevipes BPL707 v1.0
