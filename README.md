@@ -11,7 +11,7 @@ In order to recreate the database used in Saeidi et al. (In Review), use the fol
 
 <b>Note: You will need have <a href="https://curl.haxx.se/download.html">curl</a> installed.</b>
 
-The mitochondrial and nuclear databases can be made using the these commands:
+The mitochondrial and nuclear databases can be made using the these commands and requires the gzipped files downloaded in the previous step to be present in working directory:
 
 Mitochondrial:
 
