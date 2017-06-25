@@ -1,9 +1,38 @@
-# Herbarium_Genomics
+# Herbarium Genomics
 Repository for various scripts and databases used for herbarium genomics.
 
 <h1>Fungal Database</h1>
 
 The Fungal Database includes both nuclear genomes (312) and mitochondrial genomes (79) from multiple species found in the <a href="http://genome.jgi.doe.gov/programs/fungi/index.jsf">JGI MycoCosm</a> database. Species were originally chosen to include a single representative from each genus, but species identification has changed so this is no longer the case. Future version of this collection will target species that are commonly identified as contaminants in herbarium specimens. 
+
+In order to recreate the database used in Saeidi et al. (In Review), use the following commands with the script and accompanying file found in the Fungal_Database directory:
+
+	perl bulk_download_JGI.pl MycoCosm_Download_Info.txt
+
+<b>Note: You will need have <a href="https://curl.haxx.se/download.html">curl</a> installed.</b>
+
+The mitochondrial and nuclear databases can be made using the these commands:
+
+Mitochondrial:
+
+	perl make_fungal_db.pl mito
+
+Nuclear:
+
+	perl make_fungal_db.pl nuclear
+
+
+The produced FASTA files are then used to make a <a href="http://bowtie-bio.sourceforge.net/bowtie2/index.shtml">bowtie2</a> index:
+
+	bowtie2-build FASTA_file ID
+
+Assuming paired end data, bowtie2 is used to identify reads that do not map to the fungal datasets:
+
+	bowtie2 --very-sensitive-local --no-unal --un no_fungal_map_hits.fq --un-conc no_fungal_map_pair_hits.fq -x ID -1 PE_Read1 -2 PE_Read2  -S ID_no_organ.sam 
+
+The files no_fungal_map* contain reads that did not map to the fungal datasets.
+
+<h2>Fungal Genomes Used</h2>
 
 <b>Nuclear Genome Species:</b><br>
 	
@@ -115,25 +144,25 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 <br>
 <b>Mitchondrial Genome Species:</b><br>
 
-	Absidia padenii NRRL 2977 v1.0							Gymnopus earleae GB-263.02 v1.0			Rhodotorula sp. J31 v1.0
-	Aliquandostipite khaoyaiensis CBS 118232 v1.0					Hymenoscyphus varicosporoides PMI_453 v1.0	Rigidoporus microporus ED310 v1.0
-	Auriculariopsis ampla NL-1724 v1.0						Ilyonectria robusta PMI_751 v1.0		Russula brevipes BPL707 v1.0
-	Biscogniauxia nummularia v1.0							Irpex lacteus CCBAS Fr. 238 617/93 v1.0		Sclerophora sanguinea CBS100924 v1.0
-	Blastocladiella britannica v1.0							Kickxella alabastrina RSA 675 v1.0		Sparassis latifolia CCMJ1100 v1.0
-	Bolbitius vitellinus SZMC-NL-1974 v1.0						Kockovaella imperatae NRRL Y-17943 v1.0		Spinellus fusiger NRRL 22323 v1.0
-	Cerinomyces ceraceus ATCC 56525 v1.0						Lactarius quietus S23C v1.0			Syncephalis fuscata S228 v1.0
-	Chionosphaera cuniculicola CBS10063  v1.0					Lecythophora sp. AK0013 v1.0			Talaromyces proteolyticus PMI_201 <v1 class="0"></v1>
-	Chytridium lagenaria Arg66 v1.0							Lobaria pulmonaria Scotland v1.0		Terfezia claveryi T7 v1.0
-	Circinella umbellata NRRL1351 v1.0						Lophiotrema nucula CBS 627.86 v1.0		Trametes gibbosa CIRM-BRFM 1770 v1.0
-	Cladorrhinum bulbillosum DJ3 v1.0						Lycoperdon perlatum FP-102459-T v1.0		Trichophaea hybrida UTF0779 v1.0
-	Clitocybe gibba IJFM A808 v1.0							Mariannaea sp. PMI_226 v1.0			Tuber borchii Tbo3840 v1.0
-	Coemansia spiralis RSA 1278 v1.0						Massariosphaeria phaeospora CBS 611.86 v1.0	Umbelopsis sp. nov. AD052 v1.0
-	Cokeromyces recurvatus NRRL 2243 v1.0						Melanotaenium endogenum CBS481.91 v1.0		Usnea florida ATCC18376 v1.0
-	Colletotrichum acutatum CBS 112980 v2.0						Mortierella multidivaricata RSA 2152 T v1.0	Vuilleminia comedens VcCUCC2015_SSI6 v1.0
-	Cryptodiaporthe populea CFL2025 v1.0						Mucor cordense RSA 1222 v1.0			Wickerhamiella domercqiae NRRL Y-6692 v1.0
-	Cunninghamella echinulata NRRL 1382 v1.0					Mucor heterogamus NRRL 1489 v1.0		Xenasmatella vaga CBS212.54 v1.0
-	Cystostereum murrayi CysMur001 v1.0						Multifurca ochricompacta BPL690 v1.0		Xylariales sp. PMI_506 v1.0
-	Cytidiella melzeri FP 102339 v1.0						Mycotypha africana NRRL 2978 v1.0		Yarrowia lipolytica FKP355 v1.0
+	Absidia padenii NRRL 2977 v1.0							Gymnopus earleae GB-263.02 v1.0				Rhodotorula sp. J31 v1.0
+	Aliquandostipite khaoyaiensis CBS 118232 v1.0					Hymenoscyphus varicosporoides PMI_453 v1.0		Rigidoporus microporus ED310 v1.0
+	Auriculariopsis ampla NL-1724 v1.0						Ilyonectria robusta PMI_751 v1.0			Russula brevipes BPL707 v1.0
+	Biscogniauxia nummularia v1.0							Irpex lacteus CCBAS Fr. 238 617/93 v1.0			Sclerophora sanguinea CBS100924 v1.0
+	Blastocladiella britannica v1.0							Kickxella alabastrina RSA 675 v1.0			Sparassis latifolia CCMJ1100 v1.0
+	Bolbitius vitellinus SZMC-NL-1974 v1.0						Kockovaella imperatae NRRL Y-17943 v1.0			Spinellus fusiger NRRL 22323 v1.0
+	Cerinomyces ceraceus ATCC 56525 v1.0						Lactarius quietus S23C v1.0				Syncephalis fuscata S228 v1.0
+	Chionosphaera cuniculicola CBS10063  v1.0					Lecythophora sp. AK0013 v1.0				Talaromyces proteolyticus PMI_201 <v1 class="0"></v1>
+	Chytridium lagenaria Arg66 v1.0							Lobaria pulmonaria Scotland v1.0			Terfezia claveryi T7 v1.0
+	Circinella umbellata NRRL1351 v1.0						Lophiotrema nucula CBS 627.86 v1.0			Trametes gibbosa CIRM-BRFM 1770 v1.0
+	Cladorrhinum bulbillosum DJ3 v1.0						Lycoperdon perlatum FP-102459-T v1.0			Trichophaea hybrida UTF0779 v1.0
+	Clitocybe gibba IJFM A808 v1.0							Mariannaea sp. PMI_226 v1.0				Tuber borchii Tbo3840 v1.0
+	Coemansia spiralis RSA 1278 v1.0						Massariosphaeria phaeospora CBS 611.86 v1.0		Umbelopsis sp. nov. AD052 v1.0
+	Cokeromyces recurvatus NRRL 2243 v1.0						Melanotaenium endogenum CBS481.91 v1.0			Usnea florida ATCC18376 v1.0
+	Colletotrichum acutatum CBS 112980 v2.0						Mortierella multidivaricata RSA 2152 T v1.0		Vuilleminia comedens VcCUCC2015_SSI6 v1.0
+	Cryptodiaporthe populea CFL2025 v1.0						Mucor cordense RSA 1222 v1.0				Wickerhamiella domercqiae NRRL Y-6692 v1.0
+	Cunninghamella echinulata NRRL 1382 v1.0					Mucor heterogamus NRRL 1489 v1.0			Xenasmatella vaga CBS212.54 v1.0
+	Cystostereum murrayi CysMur001 v1.0						Multifurca ochricompacta BPL690 v1.0			Xylariales sp. PMI_506 v1.0
+	Cytidiella melzeri FP 102339 v1.0						Mycotypha africana NRRL 2978 v1.0			Yarrowia lipolytica FKP355 v1.0
 	Delphinella strobiligena CBS 735.71 v1.0					Oudemansiella mucida CBS 558.79 v1.0	
 	Didymocrea sadasivanii CBS 438.65 v1.0						Panaeolus papilionaceus CIRM-BRFM 715 v1.0	
 	Entophlyctis helioformis JEL805 v1.0						Phascolomyces articulosus v1.0	
@@ -149,4 +178,7 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 
 <br>
 
+<h1>References</h1>
+
+* Grigoirev, I. V., R. Nikitin, S. Haridas, A. Kuo, R. Ohm, R. Otillar, R. Rile, A. Salamov, X. Zhao, F. Korzeniewski, T. Smirnova, H. Nordberb, I. Dubchak, and I. Shabalov. 2014. MycoCosm portal: gearing up for 1000 fungal genomes. <i>Nucleic Acids Research</i>, 1(42):D699-D704. doi: <a href="https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkt1183">10.1093/nar/gkt1183</a>
 
