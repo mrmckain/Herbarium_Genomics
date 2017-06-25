@@ -48,12 +48,12 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Blastocladiella britannica v1.0					Kazachstania africana CBS 2517					Rutstroemia firma CBS 115.86 v1.0
 	Blumeria graminis f.sp. hordei DH14				Khuskia oryzae ATCC 28132 v1.0					Saccharomyces cerevisiae S288C
 	Boletus edulis v1.0						Kickxella alabastrina RSA 675 v1.0				Saitoella complicata NRRL Y-17804 v1.0
-	Botryobasidium botryosum v1.0					Kluyveromyces lactis					Sarcoscypha coccinea ATCC 58028 v1.0
+	Botryobasidium botryosum v1.0					Kluyveromyces lactis						Sarcoscypha coccinea ATCC 58028 v1.0
 	Bulgaria inquinans CBS118.31 v1.0				Kockovaella imperatae NRRL Y-17943 v1.0				Schizophyllum commune H4-8 v3.0
 	Byssothecium circinans CBS 675.92 v1.0				Kuraishia capsulata CBS 1993					Scleroderma citrinum Foug A v1.0
 	Cadophora sp. DSE1049 v1.0					Laccaria amethystina LaAM-08-1 v2.0				Scytinostroma sp. KUC9335 v1.0
 	Calocera cornea v1.0						Laetiporus sulphureus var. sulphureus v1.0			Sebacina vermifera MAFF 305830 v1.0
-	Candida albicans SC5314						Lecythophora sp. AK0013 v1.0						Septoria musiva SO2202 v1.0
+	Candida albicans SC5314						Lecythophora sp. AK0013 v1.0					Septoria musiva SO2202 v1.0
 	Capronia coronata CBS 617.96					Leiotrametes sp BRFM 1775 v1.0					Serpula lacrymans var shastensis SHA21-2 v1.0
 	Catenaria anguillulae PL171 v2.0				Lentinus tigrinus v1.0						Setomelanomma holmii CBS 110217 v1.0
 	Cenococcum geophilum 1.58 v2.0					Lentithecium fluviatile v1.0					Sirobasidium intermedium CBS7805 v1.0
@@ -68,9 +68,9 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Climacocystis borealis CliBor001 v1.0				Lollipopaia minuta P26; CBS 116597 v1.0				Suillus americanus EM31 v1.0
 	Clohesyomyces aquaticus v1.0					Lophiostoma macrostomum v1.0					Sympodiomyces attinorum NRRL Y-27639 v1.0
 	Coccodinium bartschii CBS 121709 v1.0				Loramyces juncicola 46458 v1.0					Syncephalis fuscata S228 v1.0
-	Coemansia reversa NRRL 1564 v1.0				Lycoperdon perlatum FP-102459-T v1.0			Talaromyces aculeatus ATCC 10409 v1.0
-	Cokeromyces recurvatus NRRL 2243 v1.0				Macroventuria anomochaeta CBS 525.71 v1.0				Talaromyces marneffei ATCC 18224
-	Colletotrichum acutatum CBS 112980 v2.0				Magnaporthe grisea v1.0	Taphrina deformans
+	Coemansia reversa NRRL 1564 v1.0				Lycoperdon perlatum FP-102459-T v1.0				Talaromyces aculeatus ATCC 10409 v1.0
+	Cokeromyces recurvatus NRRL 2243 v1.0				Macroventuria anomochaeta CBS 525.71 v1.0			Talaromyces marneffei ATCC 18224
+	Colletotrichum acutatum CBS 112980 v2.0				Magnaporthe grisea v1.0					Taphrina deformans
 	Coniosporium apollinis CBS 100218				Malassezia sympodialis ATCC 42132				Terfezia boudieri ATCC MYA-4762 v1.1
 	Coprinopsis cinerea AmutBmut pab1-1 v1.0			Marssonina brunnea f. sp. multigermtubi MB_m1			Testicularia cyperi MCA 3645 v1.0
 	Corynespora cassiicola CCP v1.0					Massarina eburnea CBS 473.64 v1.0				Thamnidium elegans v1.0
@@ -105,11 +105,11 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Encephalitozoon cuniculi GB-M1					Omphalotus olearius						Xenasmatella vaga CBS212.54 v1.0
 	Endocarpon pusillum Z07020					Onnia scaura P-53A v1.0						Xerocomus badius 84.06 v1.0
 	Enterocytozoon bieneusi H348					Ophiobolus disseminans CBS 113818 v1.0				Xylona heveae TC161 v1.0
-	Eremomyces bilateralis CBS 781.70 v1.0				Orpinomyces sp.			Yarrowia lipolytica (strain CLIB122)
+	Eremomyces bilateralis CBS 781.70 v1.0				Orpinomyces sp.						Yarrowia lipolytica (strain CLIB122)
 	Eremothecium gossypii ATCC 10895				Oudemansiella mucida CBS 558.79 v1.0				Zasmidium cellare ATCC 36951 v1.0
 	Erythrobasidium hasegawianum ATCC 9536 v1.0			Pachysolen tannophilus NRRL Y-2460 v1.2				Zopfia rhizophila v1.0
 	Eurotium rubrum v1.0						Panaeolus papilionaceus CIRM-BRFM 715 v1.0			Zychaea mexicana RSA 1403 v1.0
-	Eutypa lata UCREL1						Paracoccidioides brasiliensis Pb03					Zygoascus hellenicus Y-7136 v1.0
+	Eutypa lata UCREL1						Paracoccidioides brasiliensis Pb03				Zygoascus hellenicus Y-7136 v1.0
 	Exidia glandulosa v1.0						Patellaria atrata v1.0						Zymoseptoria ardabiliae STIR04_1.1.1
 
 <br>
