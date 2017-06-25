@@ -1,12 +1,22 @@
 #!/usr/bin/perl -w
 use strict;
 
-my @files = <*Mito*.fasta.gz>;
+my @files = <*.fasta.gz>;
 
 my %used;
-open my $out, ">", "Fungal_MT_DB.fsa";
-open my $out2, ">", "Genomes_used_for_MT_DB.txt";
+open my $out, ">", "Fungal_".$ARGV[1]."_DB.fsa";
+open my $out2, ">", "Genomes_used_for_".$ARGV[1]."_DB.txt";
 for my $file (@files){
+	if($ARGV[1] =~ /mito/i){
+		if($file !~ /mito/i){
+				next;
+		}
+	}
+	else{
+		if($file =~ /mito/i){
+			next;
+		}
+	}
 	my $name = substr($file, 0, 3);
 	if (exists $used{$name}){
 		next;
