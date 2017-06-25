@@ -116,7 +116,7 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 <b>Mitchondrial Genome Species:</b><br>
 
 	Absidia padenii NRRL 2977 v1.0							Gymnopus earleae GB-263.02 v1.0			Rhodotorula sp. J31 v1.0
-	Aliquandostipite khaoyaiensis CBS 118232 v1.0					Hymenoscyphus varicosporoides PMI_453 v1.0		Rigidoporus microporus ED310 v1.0
+	Aliquandostipite khaoyaiensis CBS 118232 v1.0					Hymenoscyphus varicosporoides PMI_453 v1.0	Rigidoporus microporus ED310 v1.0
 	Auriculariopsis ampla NL-1724 v1.0						Ilyonectria robusta PMI_751 v1.0		Russula brevipes BPL707 v1.0
 	Biscogniauxia nummularia v1.0							Irpex lacteus CCBAS Fr. 238 617/93 v1.0		Sclerophora sanguinea CBS100924 v1.0
 	Blastocladiella britannica v1.0							Kickxella alabastrina RSA 675 v1.0		Sparassis latifolia CCMJ1100 v1.0
@@ -127,9 +127,9 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Circinella umbellata NRRL1351 v1.0						Lophiotrema nucula CBS 627.86 v1.0		Trametes gibbosa CIRM-BRFM 1770 v1.0
 	Cladorrhinum bulbillosum DJ3 v1.0						Lycoperdon perlatum FP-102459-T v1.0		Trichophaea hybrida UTF0779 v1.0
 	Clitocybe gibba IJFM A808 v1.0							Mariannaea sp. PMI_226 v1.0			Tuber borchii Tbo3840 v1.0
-	Coemansia spiralis RSA 1278 v1.0						Massariosphaeria phaeospora CBS 611.86 v1.0		Umbelopsis sp. nov. AD052 v1.0
-	Cokeromyces recurvatus NRRL 2243 v1.0						Melanotaenium endogenum CBS481.91 v1.0			Usnea florida ATCC18376 v1.0
-	Colletotrichum acutatum CBS 112980 v2.0						Mortierella multidivaricata RSA 2152 T v1.0		Vuilleminia comedens VcCUCC2015_SSI6 v1.0
+	Coemansia spiralis RSA 1278 v1.0						Massariosphaeria phaeospora CBS 611.86 v1.0	Umbelopsis sp. nov. AD052 v1.0
+	Cokeromyces recurvatus NRRL 2243 v1.0						Melanotaenium endogenum CBS481.91 v1.0		Usnea florida ATCC18376 v1.0
+	Colletotrichum acutatum CBS 112980 v2.0						Mortierella multidivaricata RSA 2152 T v1.0	Vuilleminia comedens VcCUCC2015_SSI6 v1.0
 	Cryptodiaporthe populea CFL2025 v1.0						Mucor cordense RSA 1222 v1.0			Wickerhamiella domercqiae NRRL Y-6692 v1.0
 	Cunninghamella echinulata NRRL 1382 v1.0					Mucor heterogamus NRRL 1489 v1.0		Xenasmatella vaga CBS212.54 v1.0
 	Cystostereum murrayi CysMur001 v1.0						Multifurca ochricompacta BPL690 v1.0		Xylariales sp. PMI_506 v1.0
@@ -143,7 +143,7 @@ The Fungal Database includes both nuclear genomes (312) and mitochondrial genome
 	Gaertneriomyces semiglobifer Barr 43 v1.0					Pilaira anomala RSA1997 v1.0	
 	Gilbertella persicaria var. persicaria CBS 190.32-T v1.0			Purpureocillium sp. UdeA0106 v1.0	
 	Gloeopeniophorella convolvens OM19405 v1.0					Pycnoporus cinnabarinus CIRM-BRFM 50 v1.0	
-	Gongronella butleri v1.0								Radiomyces spectabilis NRRL 2753 v1.0	
+	Gongronella butleri v1.0							Radiomyces spectabilis NRRL 2753 v1.0	
 	Gremmeniella abietina DAOM 170408 v1.0						Rhodotorula glutinis v1.0	
 
 
