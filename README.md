@@ -178,6 +178,16 @@ The files no_fungal_map* contain reads that did not map to the fungal datasets.
 
 <br>
 
+<h1>GC Content</h1>
+
+The script <code>get_gc_content.pl</code> can be used to estimate the GC content from FASTQ reads.  This script requires FASTQ files to be present in the working directory. The files must have the ending ".fq" or ".fastq". 
+
+To run the script, simply call with Perl:
+
+	perl get_gc_content.pl
+
+The output file is called GC_content.txt and include the percent AT, percent GC, and total base pairs for the FASTQ files.
+
 <h1>References</h1>
 
 * Grigoirev, I. V., R. Nikitin, S. Haridas, A. Kuo, R. Ohm, R. Otillar, R. Rile, A. Salamov, X. Zhao, F. Korzeniewski, T. Smirnova, H. Nordberb, I. Dubchak, and I. Shabalov. 2014. MycoCosm portal: gearing up for 1000 fungal genomes. <i>Nucleic Acids Research</i>, 1(42):D699-D704. doi: <a href="https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkt1183">10.1093/nar/gkt1183</a>
